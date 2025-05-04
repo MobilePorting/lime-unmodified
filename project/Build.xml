@@ -354,7 +354,7 @@
 	<include name="lib/vorbis/files.xml" />
 	<include name="lib/vpx/files.xml" />
 	<include name="lib/webm/files.xml" />
-	<include name="lib/zlib/files.xml" />
+	<include name="lib/zlib-files.xml" />
 
 	<set name="DEBUGEXTRA" value="-debug" if="fulldebug" />
 	<set name="LIBSUFFIX" value="${HX_TARGET_SUFFIX}" if="HX_TARGET_SUFFIX" />
