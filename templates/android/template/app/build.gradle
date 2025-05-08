@@ -92,7 +92,7 @@ android {
 dependencies {
 	::if (ANDROID_USE_ANDROIDX)::
 	implementation "androidx.core:core:1.16.0"
-	implementation "androidx.documentfile:documentfile:1.1.0-rc1"
+	implementation "androidx.documentfile:documentfile:1.1.0-rc01"
 	implementation "com.google.android.material:material:1.13.0-alpha13"
 	::end::
 	implementation fileTree(dir: 'libs', include: ['*.jar'])
